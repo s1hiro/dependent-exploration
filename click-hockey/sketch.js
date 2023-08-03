@@ -29,7 +29,7 @@ function draw() {
     text("Score: " + score, 0, 0)
 
     // check if in goal
-    if (xPos + 15 >= 220 && xPos - 15 <= 280 && yPos + 15 >= 480) {
+    if (xPos + 15 <= 220 && xPos - 15 <= 280 && yPos + 15 >= 480) {
         score;
         // reset position and speed
         xPos = random(15, 485);
